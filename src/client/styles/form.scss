@@ -1,0 +1,23 @@
+#form {
+    padding: 30px;
+    background-color: rgba(128, 128, 128, 0.493);
+
+    input {
+        height: 30PX;
+        border: 1PX solid gray;
+        border-radius: 10px;
+
+        &:focus {
+            border: 1px solid brown;
+            outline: none;
+        }
+    }
+
+    .btn-submit {
+
+        height: 30px;
+        background-color: rgba(128, 128, 128, 0.514);
+        border-radius: 10px;
+        color: #fff;
+    }
+}
